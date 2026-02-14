@@ -118,7 +118,9 @@ def game():
                 if event.key == pygame.K_r:
                     game()
                 if event.key==pygame.K_q:
-                    pygame.quit()        
+                    pygame.quit()     
+                    sys.exit()
+game()                       
         
 
                                                                          
