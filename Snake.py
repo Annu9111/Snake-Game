@@ -103,7 +103,9 @@ def game():
         clock.tick(snake_speed)
         
     #game over screen
-    
+    while True:
+        screen.fill(BLACK)
+        
 
                                                                          
                                         
