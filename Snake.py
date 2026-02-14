@@ -105,6 +105,9 @@ def game():
     #game over screen
     while True:
         screen.fill(BLACK)
+        message("Game Over!! Press R to Restart or Q to Quit",RED)
+        show_score(score)
+        pygame.display.update()
         
 
                                                                          
