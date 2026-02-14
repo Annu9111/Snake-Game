@@ -109,6 +109,11 @@ def game():
         show_score(score)
         pygame.display.update()
         
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+        
 
                                                                          
                                         
